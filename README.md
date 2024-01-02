@@ -4,12 +4,12 @@ Sample API project using the squirrels framework.
 
 ## Setup
 
-First, create the virtual envinroment for the project and activate it.
+First, create the virtual environment for the project and activate it.
 
-Then, install the squirrels framework.
+Then, install the squirrels framework and its dependencies.
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.lock
 ```
 
 Test that it works!
@@ -17,3 +17,5 @@ Test that it works!
 ```bash
 squirrels run
 ```
+
+Or run `squirrels -h` to see other command options.
